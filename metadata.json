@@ -1,0 +1,12 @@
+{
+  "name": "Remix Remix Devil Mobile AI",
+  "description": "Futuristic mobile AI assistant with real-time voice, vision camera capabilities, holographic arc reactor HUD, UI clearing and clarity mode, fake number calling escape shield, mobile number live location radar, mobile APK installer, and smart tools.",
+  "requestFramePermissions": [
+    "microphone",
+    "camera",
+    "geolocation"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

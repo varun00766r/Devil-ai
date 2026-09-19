@@ -1,0 +1,55 @@
+{
+  "id": "/",
+  "name": "DEVIL Mobile AI Assistant",
+  "short_name": "DEVIL AI",
+  "description": "Futuristic mobile AI assistant with offline notes, reminders, real-time voice, HUD telemetry, and tactical tools.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "theme_color": "#050505",
+  "background_color": "#050505",
+  "icons": [
+    {
+      "src": "/pwa-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-maskable-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ],
+  "categories": ["productivity", "utilities"],
+  "shortcuts": [
+    {
+      "name": "Stored Notes & Intel",
+      "short_name": "Notes",
+      "description": "Quickly access offline notes and intel",
+      "url": "/?view=notes",
+      "icons": [{ "src": "/pwa-192x192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Reminders & Tasks",
+      "short_name": "Reminders",
+      "description": "View and manage offline reminders and tasks",
+      "url": "/?view=reminders",
+      "icons": [{ "src": "/pwa-192x192.png", "sizes": "192x192" }]
+    }
+  ]
+}
